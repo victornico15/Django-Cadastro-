@@ -16,4 +16,4 @@ class PessoaSerializer(serializers.ModelSerializer):
         fields = ['nome_completo', 'data_nascimento', 'ativa', 'contatos']
 
 
-#final
+#fina
