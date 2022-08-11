@@ -14,3 +14,6 @@ class PessoaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Pessoa
         fields = ['nome_completo', 'data_nascimento', 'ativa', 'contatos']
+
+
+#final
